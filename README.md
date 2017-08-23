@@ -1,7 +1,7 @@
 
 Desafio 23/08/17 à 30/08/17
 
-O desafio dessa semana consiste em desenvolver um relógio analógico ou digital em JavaScript.
+O desafio desta semana consiste em desenvolver um relógio analógico ou digital em JavaScript.
 
 Critérios
 

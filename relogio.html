@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Relogiao do MatheuSÃO</title>
+</head>
+<body>
+  
+<script>
+ let rodaTudo = function() {
+ const startDate = new Date();
+ let hours =  startDate.getHours();
+ let min = startDate.getMinutes();
+ let second = startDate.getSeconds();
+ const template =
+ `<div style="font-size:80px">${checandoTempo(hours)}:${checandoTempo(min)}:${checandoTempo(second)}</div>`;
+  document.body.innerHTML = template; 
+}
+
+function checandoTempo(i) {
+    if (i < 10) {i = "0" + i};
+    return i;
+}
+
+setInterval(() => rodaTudo(), 1000);
+ 
+</script>
+</body>
+</html>

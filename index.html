@@ -8,12 +8,12 @@
   
 <script>
  let rodaTudo = function() {
- const startDate = new Date();
- let hours =  startDate.getHours();
- let min = startDate.getMinutes();
- let second = startDate.getSeconds();
+ const startData = new Date();
+ let hora =  startData.getHours();
+ let minutos = startData.getMinutes();
+ let segundos = startData.getSeconds();
  const template =
- `<div style="font-size:80px">${checandoTempo(hours)}:${checandoTempo(min)}:${checandoTempo(second)}</div>`;
+ `<div style="font-size:80px">${checandoTempo(hora)}:${checandoTempo(minutos)}:${checandoTempo(segundos)}</div>`;
   document.body.innerHTML = template; 
 }
 
